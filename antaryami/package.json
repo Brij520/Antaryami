@@ -1,0 +1,10 @@
+{
+  "name": "antaryami",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Antaryami — free Vedic astrology predictions by text. No API keys, no accounts.",
+  "engines": {
+    "node": "24.x"
+  }
+}

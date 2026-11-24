@@ -1,0 +1,9 @@
+{
+  "cleanUrls": true,
+  "functions": {
+    "api/predict.js": {
+      "memory": 512,
+      "maxDuration": 10
+    }
+  }
+}
