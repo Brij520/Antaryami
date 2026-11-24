@@ -6,5 +6,9 @@
   "description": "Antaryami — free Vedic astrology predictions by text. No API keys, no accounts.",
   "engines": {
     "node": "24.x"
+  },
+  "scripts": {
+    "dev": "node dev-server.mjs",
+    "test": "node --test tests/"
   }
 }
