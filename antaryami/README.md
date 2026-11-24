@@ -48,3 +48,34 @@ content with, any commercial astrology app; it is not affiliated with AstroTalk.
 Readings are assembled from classical whole-sign house significations and are
 offered as entertainment and self-reflection — not medical, legal, financial, or
 any other professional advice.
+
+## Deployed
+
+| | |
+| --- | --- |
+| Vercel project | `antaryami` (`prj_BTghxMXXLrpFHuB6YjxqqSe0YvS7`, team `brij16`) |
+| Root directory | `antaryami` |
+| Repo / branch | `Brij520/Antaryami` @ `arena/930e3351-antaryami` |
+| Production deployment | `dpl_J8YaMwjHpZCswSbbTj5CCLVY8oyt` — READY, promoted |
+| URL | https://antaryami-4wut1w7oo-brij16.vercel.app |
+| Aliases | `antaryami-brij16.vercel.app`, `antaryami-git-arena-930e3351-antaryami-brij16.vercel.app` |
+| Runtime | Node.js 24.x (from `engines`), one serverless function: `api/predict.js` |
+
+The build log shows `Build Completed in /vercel/output`, one Node.js lambda
+bundled, and the deployment promoted to production.
+
+### Access
+
+Vercel **Deployment Protection (Vercel Authentication / SSO)** is left **on** by
+choice, so the site is reachable only by the signed-in account owner. To open it
+to the public later, in the Vercel dashboard:
+
+> Project **antaryami** → Settings → **Deployment Protection** → set
+> *Vercel Authentication* to **Disabled** (or **Standard Protection**) → Save.
+
+Custom-domain deployments are exempt from SSO protection by default, so adding a
+domain under Settings → Domains also makes it publicly reachable.
+
+Because protection is on, the live HTML/API could not be fetched and verified
+from an unauthenticated client. Everything below was verified locally against
+the same code that was deployed.
